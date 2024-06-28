@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "echo2", urlPatterns = { "/echo2" })
+@WebServlet(name = "echo2", urlPatterns = { "/echo2" }) // 서블릿 매핑
 public class Echo2 extends HttpServlet {
 
 	public Echo2() {

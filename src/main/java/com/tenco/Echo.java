@@ -7,7 +7,10 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "echo", urlPatterns = {"/echo"})
+import org.apache.jasper.servlet.JspCServletContext;
+import org.apache.jasper.servlet.JspServlet;
+
+@WebServlet(name = "echo", urlPatterns = {"/echo"}) // 서블릿 매핑
 public class Echo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
